@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlMutator", "HtmlMutator\HtmlMutator.csproj", "{ABE7528E-27FB-43E0-8973-9FE1A9CC7E61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutatorDemo", "MutatorDemo\MutatorDemo.csproj", "{3A6D8719-EBBF-43F9-AFC9-211DCC810508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMutator", "MvcMutator\MvcMutator.csproj", "{95C837A9-3DD9-4B96-83C5-0604EEB69688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMutatorDemo", "MvcMutatorDemo\MvcMutatorDemo.csproj", "{F474019D-056B-4E58-9872-8C754B666D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularMutator", "AngularMutator\AngularMutator.csproj", "{CDC51574-8D33-484C-8D7C-D70948ECB8F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapMutator", "BootstrapMutator\BootstrapMutator.csproj", "{C400B99E-97C2-4BB0-9BF5-64ED6496899E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93791F0A-6281-4601-B9F0-5902B53BDE33}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{86EB1452-3DCB-452E-B9A5-FD787F003E46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABE7528E-27FB-43E0-8973-9FE1A9CC7E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE7528E-27FB-43E0-8973-9FE1A9CC7E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE7528E-27FB-43E0-8973-9FE1A9CC7E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE7528E-27FB-43E0-8973-9FE1A9CC7E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6D8719-EBBF-43F9-AFC9-211DCC810508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6D8719-EBBF-43F9-AFC9-211DCC810508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6D8719-EBBF-43F9-AFC9-211DCC810508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6D8719-EBBF-43F9-AFC9-211DCC810508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C837A9-3DD9-4B96-83C5-0604EEB69688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C837A9-3DD9-4B96-83C5-0604EEB69688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C837A9-3DD9-4B96-83C5-0604EEB69688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C837A9-3DD9-4B96-83C5-0604EEB69688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F474019D-056B-4E58-9872-8C754B666D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F474019D-056B-4E58-9872-8C754B666D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F474019D-056B-4E58-9872-8C754B666D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F474019D-056B-4E58-9872-8C754B666D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC51574-8D33-484C-8D7C-D70948ECB8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC51574-8D33-484C-8D7C-D70948ECB8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC51574-8D33-484C-8D7C-D70948ECB8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC51574-8D33-484C-8D7C-D70948ECB8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C400B99E-97C2-4BB0-9BF5-64ED6496899E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C400B99E-97C2-4BB0-9BF5-64ED6496899E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C400B99E-97C2-4BB0-9BF5-64ED6496899E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C400B99E-97C2-4BB0-9BF5-64ED6496899E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86EB1452-3DCB-452E-B9A5-FD787F003E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86EB1452-3DCB-452E-B9A5-FD787F003E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86EB1452-3DCB-452E-B9A5-FD787F003E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86EB1452-3DCB-452E-B9A5-FD787F003E46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://puskasbme.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HtmlMutator\\HtmlMutator.csproj
+		SccProjectName1 = HtmlMutator
+		SccLocalPath1 = HtmlMutator
+		SccProjectUniqueName2 = MutatorDemo\\MutatorDemo.csproj
+		SccProjectName2 = MutatorDemo
+		SccLocalPath2 = MutatorDemo
+		SccProjectUniqueName3 = MvcMutator\\MvcMutator.csproj
+		SccProjectName3 = MvcMutator
+		SccLocalPath3 = MvcMutator
+		SccProjectUniqueName4 = MvcMutatorDemo\\MvcMutatorDemo.csproj
+		SccProjectName4 = MvcMutatorDemo
+		SccLocalPath4 = MvcMutatorDemo
+		SccProjectUniqueName5 = AngularMutator\\AngularMutator.csproj
+		SccProjectName5 = AngularMutator
+		SccLocalPath5 = AngularMutator
+		SccProjectUniqueName6 = BootstrapMutator\\BootstrapMutator.csproj
+		SccProjectName6 = BootstrapMutator
+		SccLocalPath6 = BootstrapMutator
+		SccProjectUniqueName7 = UnitTestProject\\UnitTestProject.csproj
+		SccProjectName7 = UnitTestProject
+		SccLocalPath7 = UnitTestProject
+	EndGlobalSection
+EndGlobal
