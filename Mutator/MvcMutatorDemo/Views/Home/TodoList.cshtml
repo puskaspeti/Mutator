@@ -1,0 +1,38 @@
+﻿@using HtmlMutator.Helpers
+@using HtmlMutator.HtmlElements
+@using HtmlMutator.BootstrapMutator
+@using MvcMutatorDemo.Models
+
+@model List<TodoItem>
+
+@{
+    ViewBag.Title = "Register";
+
+    var rows = new List<Tr>();
+    foreach (var item in Model)
+    {
+        rows.Add(
+            new Tr().Add(
+                new Td().Add(item.Title),
+                new Td().Add(item.Completed == true ? "Completed" : "Not completed")
+            )
+        );
+    }
+
+    var content = new Div().Add(
+        new H1().Add("Todo list"),
+        new Table {
+            Thead = new Thead().Add(
+                new Tr().Add(
+                    new Th().Add("Title"),
+                    new Th().Add("Completed")
+                )
+            ),
+            Tbody = new Tbody().Add(
+                rows.ToArray()
+            )
+        }
+        .AddClass(Bootstrap.Table, Bootstrap.TableBordered)
+    );
+}
+@content.Render()
